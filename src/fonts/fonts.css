@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "Serif";
+	src: url("./PTSerif-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Apple-Chancery";
+	src: url("./Apple-Chancery.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Anova";
+	src: url("./Anova-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Bradley Hand";
+	font-style: bold;
+	src: url("./Bradley Hand.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Brush Script MT";
+	font-style: italic;
+	src: url("./Brush Script.ttf") format("truetype");
+}
