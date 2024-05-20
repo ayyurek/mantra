@@ -122,7 +122,7 @@ const generatePDFBuffer = async (
 };
 
 const printPDF = async () => {
-  const printerM = "";
+  const printerM = "Munbyn_ITPP941";
   const options = {
     printer: printerM,
     paperSize: "3x3",
