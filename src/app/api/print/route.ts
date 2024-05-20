@@ -122,10 +122,10 @@ const generatePDFBuffer = async (
 };
 
 const printPDF = async () => {
-  const printerM = "Argox OS-214 plus PPLA";
+  const printerM = "Munbyn_ITPP941";
   const options = {
     printer: printerM,
-    paperSize: "100x100",
+    paperSize: "3x3",
   };
 
   const printResponse = await print(pdfFileName, options).then(console.log);
