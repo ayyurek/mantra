@@ -109,7 +109,7 @@ const generatePDFBuffer = async (
 
     doc.text(mantra, centerX, topY, {
       width: mantraWidth,
-      align: "center",
+      align: "center"
     });
 
     doc.end();
@@ -125,7 +125,7 @@ const printPDF = async () => {
   const printerM = "Munbyn_ITPP941";
   const options = {
     printer: printerM,
-    paperSize: "3x3",
+    paperSize: "3x3"
   };
 
   const printResponse = await print(pdfFileName, options).then(console.log);
